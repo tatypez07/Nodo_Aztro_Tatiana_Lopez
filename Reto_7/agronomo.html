@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agronomo</title>
+</head>
+<body>
+    <h1>LOGICA SECUENCIAL - AGRONOMO</h1>
+    <p>
+        Un agrónomo desea una forma rápida de encontrar cuántos litros de pesticida debe aplicar a un conjunto de terrenos de forma trapezoidal, si por cada metro cuadrado debe aplicar 1.5 litros de pesticida. Además, le piden que determine cuántos metros de cerca eléctrica son necesarios para rodear todo el terreno.
+        <hr>
+        <br>
+        <strong>Volumen = largo x ancho x alto</strong> 
+    </p>
+
+    <form action="" id="form-logica">
+        <label for="largo">Largo</label>
+        <input type="number" id="largo" placeholder="Ingrese el largo del terreno">
+
+        <label for="ancho">Ancho</label>
+        <input type="number" id="ancho" placeholder="Ingrese el ancho del terreno">
+
+        <label for="alto">Alto</label>
+        <input type="number" id="alto" placeholder="Ingrese el alto del terreno">
+
+        <br><br>
+        <label>Resultados: </label>
+        <span id="resultado_volumen"></span><br>
+        <span id="resultado_pesticida"></span><br>
+        <span id="resultado_cerca"></span><br>
+        
+        <input type="submit" value="Calcular">
+    </form>    
+
+    <script src="app-logica-agro.js"></script>
+</body>
+</html>

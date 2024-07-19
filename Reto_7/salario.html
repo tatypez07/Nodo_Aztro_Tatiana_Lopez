@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquidacion Nomina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Liquidacion Nomina</h1>
+    <form id="form-liquidacion">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Empleado</th>
+                    <th scope="col">Dias Laborados</th>
+                    <th scope="col">Extras Diurnas</th>
+                    <th scope="col">Extras Nocturnas</th>
+                    <th scope="col">Festivos</th>
+                    <th scope="col">Salario Neto a recibir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" class="form-liquidacion-empleado" id="Empleado" placeholder="Ingrese nombre empleado" required></td>
+                    <td><input type="number" class="form-liquidacion-dias" id="dias" placeholder="Ingrese el # de dias laborados" required></td>
+                    <td><input type="number" class="form-extrasdiurnas" id="extras-diurnas" placeholder="Ingrese el # de horas extras diurnas" required></td>
+                    <td><input type="number" class="form-extrasnocturnas" id="extras-nocturnas" placeholder="Ingrese el # de horas extras Nocturnas" required></td>
+                    <td><input type="number" class="form-festivo" id="festivo" placeholder="Ingrese el # de dias festivos laborados" required></td>
+                    <td><button type="submit" class="calcularpago">Calcular Pago</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="./app-logica-salario.js"></script>
+</body>
+</html>

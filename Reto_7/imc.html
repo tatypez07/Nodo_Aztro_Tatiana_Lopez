@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>IMC</title>
+</head>
+<body>
+    <h1>IMC</h1>
+
+    <p>Un Medico desea utilizar un sitio web que le muestre a un persona su estado de salud, dependiendo del índice de masa corporal a partir de su peso y altura, al mismo tiempo mostrar en que rango de encuentra, delgado, normal, obeso, etc. (ver la tabla). <br><br>
+
+        <img src="/img/IMC-2-1024x576.jpg" width="500" alt=""> <br>
+        
+        <strong>ANEXO:</strong> utiliza condicionales para determinar el rango en el cual se encuentra la persona una vez calcules su Índice de Masa Corporal (IMC), recuerda de debes inicialmente calcular el IMC y a través de su valor determinar con condicionales en que rango se encuentra el paciente.  Adjunto encontraras la formula para hacer el calculo y las dos tablas de rangos vistas en clase, puedes usar cualquiera de las dos.</p>
+
+
+     <form id="form-imc">
+
+        <label for="">Ingrese Su peso</label>
+        <input type="number" id="peso">
+
+        <label for="">Ingrese Su Altura</label>
+        <input type="number" id="altura">
+
+        <br>
+        <br>
+
+        <label for="">Resultados IMC: <span id="resultado"></span></label>
+            <br> <br> 
+
+            <label for="">Categoria: <span id="descripcion"></span></label>
+            <br> <br> 
+        <input type="submit" value="Calcularimc">
+        </label>
+
+     </form>
+     
+</body>
+<script src="/app-logica-imc.js"></script>
+</html>
